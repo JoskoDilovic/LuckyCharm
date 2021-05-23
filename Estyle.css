@@ -1,0 +1,120 @@
+body{
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    max-width: 1100px;
+    justify-content: center;
+    margin-left: 170px;
+}
+header{
+    justify-content: space-between;
+    background-image: url(../LuckyCharm/img/header.png);
+    padding: 10px 0 100px 0;
+    
+    
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+.ikone {
+    margin-right: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ikone i{
+    color: rgb(203, 221, 44);
+}
+.ikone :first-child{
+    margin-right: 85px;
+}
+.naslov{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.naslov h1 {
+    font-size: 45px;
+}
+.naslov p {
+    font-size: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li {
+    padding:0 50px;
+    font-size: 40px;
+    margin-left: 35px;
+}
+.dva {
+    width: 50%;  
+}
+.popis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dva img{
+    height: 350px;
+    width: 300px;
+    margin-left: 250px;
+}
+
+.popis p{
+    font-size: 30px;
+}
+.popis a{
+    width: 90px;
+}
+.popis a:link,.popis a:visited {
+    background-color: #313833;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.popis a:hover,.popis a:active {
+    background-color: rgb(30, 75, 33);
+  }
+.sadrzaj {
+    background-image: url(../LuckyCharm/img/header.png);
+    padding: 10px 0 100px 0;
+    color: white;
+}
+.sadrzaj p {
+    margin: 50px 50px 0px 50px;
+    font-size: 18px;
+}
+
+.tri {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.tri img {
+    padding: 100px;
+    height: 300px;
+    width: 230px;   
+}
+.fas {
+    color: #313833;
+    font-size: 45px;
+    float: left;
+    margin-left: 100px;
+}
+#povratak {
+    color: #313833;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+}
