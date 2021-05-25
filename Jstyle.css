@@ -1,0 +1,140 @@
+h2, h3 {
+    color: #555;
+}
+
+p {
+    color: #777;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+main{
+	background-color:pink;
+	z-index:1;
+}
+
+header {
+  min-height:100px;
+}
+
+header img{
+	width:100%;
+	height:500px;
+	
+}
+
+.center-text {
+    text-align: center;
+    padding: 120px 0;
+}
+
+
+.center {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.center h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+
+main h3{
+	color:black;
+}
+
+main p{
+	color:black;
+}
+
+main .center img{
+	 padding-bottom: 50px;
+	  width:400px;
+	  height:250px;
+	  
+}
+
+footer img{
+	width:100%;
+	height:300px;
+	
+}
+
+
+nav {
+    float: right;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000;
+}
+nav ul li a.active {
+    color: #82ca9c;
+}
+
+nav ul li a:hover {
+    color: #82ca9c;
+    border-bottom: 1px solid #82ca9c;
+    transition: border-bottom 0.5s;
+    transition-timing-function: linear;
+}
+
+nav ul li a.login {
+    box-sizing: border-box;
+    border: 1px solid #82ca9c;
+    color: #82ca9c;
+    border-radius: 20px;
+}
+
+nav ul li a.login:hover {
+    background-color: #82ca9c;
+    color: #fff;
+    transition: background-color 2s, color 2s;
+}
+
+.black{
+	background-color:black;
+	height:300px;
+}
+
+.sredina{
+	text-align:center;
+	color:white;
+	margin: 0 auto;
+	padding: 150px 0px 0px 0px;
+}
+
+
+.sredina1{
+	text-align:center;
+	color:white;
+}
+	
+.margina{
+	margin-bottom:80px;
+}
+
+.gray{
+	background-color:red;
+}
+
+
+@media screen and (max-width: 767px) {
+    .right {
+        float: none;
+    }
+
+}
